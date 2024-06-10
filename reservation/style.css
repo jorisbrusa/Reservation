@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./fond-voyage-design-plat_23-2149193475.avif');
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.booking-form, .confirmation {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.booking-form h1, .confirmation h2 {
+    text-align: center;
+}
+
+.number-input {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.number-input label {
+    flex: 1;
+}
+
+.number-input button {
+    width: 30px;
+    height: 30px;
+}
+
+.number-input input {
+    width: 50px;
+    text-align: center;
+}
+
+#age-enfants-container label {
+    display: block;
+    margin: 5px 0;
+}
+.title-box {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Fond de la boîte */
+    padding: 20px; /* Espacement interne de la boîte */
+    border-radius: 10px; /* Coins arrondis */
+    margin-bottom: 20px; /* Marge en bas de la boîte */
+}
+.confirmation {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.btn-submit, .btn-reset {
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-submit:hover, .btn-reset:hover {
+    background-color: #45a049; /* Vert plus foncé */
+}
